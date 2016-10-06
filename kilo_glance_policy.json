@@ -1,0 +1,61 @@
+{
+    "context_is_admin":  "role:admin",
+    "default": "",
+
+    "add_image": "not role:readonly",
+    "delete_image": "not role:readonly",
+    "get_image": "",
+    "get_images": "",
+    "modify_image": "not role:readonly",
+    "publicize_image": "role:admin or role:advsvc",
+    "copy_from": "",
+
+    "download_image": "",
+    "upload_image": "not role:readonly",
+
+    "delete_image_location": "not role:readonly",
+    "get_image_location": "",
+    "set_image_location": "not role:readonly",
+
+    "add_member": "not role:readonly",
+    "delete_member": "not role:readonly",
+    "get_member": "",
+    "get_members": "",
+    "modify_member": "not role:readonly",
+
+    "manage_image_cache": "role:admin",
+
+    "get_task": "",
+    "get_tasks": "",
+    "add_task": "not role:readonly",
+    "modify_task": "not role:readonly",
+
+    "deactivate": "not role:readonly",
+    "reactivate": "not role:readonly",
+
+    "get_metadef_namespace": "",
+    "get_metadef_namespaces":"",
+    "modify_metadef_namespace":"not role:readonly",
+    "add_metadef_namespace":"not role:readonly",
+
+    "get_metadef_object":"",
+    "get_metadef_objects":"",
+    "modify_metadef_object":"not role:readonly",
+    "add_metadef_object":"not role:readonly",
+
+    "list_metadef_resource_types":"",
+    "get_metadef_resource_type":"",
+    "add_metadef_resource_type_association":"not role:readonly",
+
+    "get_metadef_property":"",
+    "get_metadef_properties":"",
+    "modify_metadef_property":"not role:readonly",
+    "add_metadef_property":"not role:readonly",
+
+    "get_metadef_tag":"",
+    "get_metadef_tags":"",
+    "modify_metadef_tag":"not role:readonly",
+    "add_metadef_tag":"not role:readonly",
+    "add_metadef_tags":"not role:readonly"
+
+}
